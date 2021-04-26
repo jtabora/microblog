@@ -1,0 +1,1 @@
+Welcome to the MicroBlog project development environment. This is my first attempt at creating a microblog using the Flask framework.
