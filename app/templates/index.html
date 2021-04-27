@@ -1,0 +1,11 @@
+{% extends "./base.html" %}
+    {% block content %}
+        <h1>Hello, {{ user.username }}!</h1>
+        <p>Hahahaha, below the h1 tag.</p>
+        <br><br>
+        <div>
+            {% for p in range (1, 4, 2) %}
+            <p>{{ posts[p].author.username }} says: <b>{{ posts[p].body }}</b></p>
+            {% endfor %}
+        </div>
+    {% endblock %}
